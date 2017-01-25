@@ -1,4 +1,4 @@
-# grunt-mocha
+# grunt-mocha [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]
 
 > Automatically run *client-side* mocha specs via grunt/mocha/PhantomJS
 
@@ -307,5 +307,9 @@ Mocha **must** be included via script tag in the header. There is no need to loa
 Example setup with AMD (advanced): https://gist.github.com/2655876
 
 ## License
-Copyright (c) 2013 Kelly Miyashiro
 Licensed under the MIT license.
+
+[npm-image]: https://img.shields.io/npm/v/grunt-mocha.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/grunt-mocha
+[travis-image]: https://img.shields.io/travis/disqus/grunt-mocha/master.svg?style=flat-square
+[travis-url]: https://travis-ci.org/disqus/grunt-mocha
