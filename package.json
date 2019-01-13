@@ -2,29 +2,18 @@
   "name": "grunt-mocha",
   "description": "Grunt task for running client-side Mocha specs in PhantomJS",
   "version": "1.1.0",
-  "homepage": "https://github.com/disqus/grunt-mocha",
-  "author": {
-    "name": "Kelly Miyashiro",
-    "email": "miyashiro.kelly@gmail.com"
-  },
-  "maintainers": [
-    {
-      "name": "Disqus Inc.",
-      "email": "opensource@disqus.com",
-      "web": "https://github.com/disqus/"
-    }
-  ],
+  "homepage": "https://github.com/tecfu/grunt-mocha",
   "repository": {
     "type": "git",
-    "url": "git://github.com/disqus/grunt-mocha.git"
+    "url": "git://github.com/tecfu/grunt-mocha.git"
   },
   "bugs": {
-    "url": "https://github.com/disqus/grunt-mocha/issues"
+    "url": "https://github.com/tecfu/grunt-mocha/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/disqus/grunt-mocha/blob/master/LICENSE-MIT"
+      "url": "https://github.com/tecfu/grunt-mocha/blob/master/LICENSE-MIT"
     }
   ],
   "main": "Gruntfile.js",
@@ -35,19 +24,18 @@
     "test": "grunt test"
   },
   "dependencies": {
-    "grunt-lib-phantomjs": "^1.0.2",
-    "lodash": "^3.9.0",
-    "mocha": ">=2.5.3"
+    "grunt-lib-phantomjs": "^1.1.0",
+    "lodash": "^4.17.11",
+    "mocha": ">=5.2.0"
   },
   "peerDependencies": {
-    "grunt": ">=0.4.0"
+    "grunt": ">=1.0.0"
   },
   "devDependencies": {
-    "chai": "^3.4.1",
-    "grunt": "~0.4",
-    "grunt-contrib-connect": "~0.2",
-    "grunt-contrib-jshint": "~0.3",
-    "mocha": ">=2.5.3"
+    "chai": "^4.2.0",
+    "grunt": "~1.0.3",
+    "grunt-contrib-connect": "~2.0.0",
+    "grunt-contrib-jshint": "~2.0.0"
   },
   "keywords": [
     "gruntplugin",
